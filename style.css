@@ -12,6 +12,8 @@ body {
 
 i {
   padding: 0px 20px;
+  font-size: 1.2rem;
+  color: #5ba4a4;
 }
 
 .header {
@@ -21,7 +23,10 @@ i {
 
 .header-img {
   background-image: url(./images/bg-header-mobile.svg);
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
 }
 
 .main {
